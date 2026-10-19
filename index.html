@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muluken Abebe | Computer Science Student & Developer</title>
+    <!-- CSS link will go here -->
+     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="#hero">&lt;Muluken Abebe&gt;</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Dark Mode Toggle Button (for JS) -->
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="name">Muluken Abebe.</h1>
+                <h2 class="tagline">I build software and solve complex problems.</h2>
+                <p class="bio-short">
+                    I'm a Computer Science student at Wollo University KIOT compus,
+                     passionate about software engineering, algorithms, and 
+                     full-stack development.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm currently pursuing a Bachelor's degree in Computer Science
+                         at Wollo University (Expected Graduation: [2020 EC]).
+                         My interest in computer science started with getting really
+                          fast improvement at my fresh man c++ study at wollo university.
+                          and my good familiarty with data structure and algorithms.
+                    </p>
+                    <p>
+                        Currently, I am focusing on building scalable web applications, 
+                        understanding data structures & algorithms, and exploring 
+                        cloud systems/AI.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="photo.jpg" alt="Muluken Abebe profile photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java / C++</li>
+                        <li>SQL</li>
+                        <li>HTML5 & CSS3</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Developer Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>CS Concepts</h3>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Database Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="folder-icon">📁</span>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project1" target="_blank" aria-label="GitHub Link">GitHub</a>
+                            <a href="https://project1-demo.com" target="_blank" aria-label="Live Demo Link">Live Demo</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Algorithm Visualizer</h3>
+                    <p class="project-description">
+                        An interactive web application to visualize sorting algorithms
+                         (Merge Sort, Quick Sort) and pathfinding algorithms in real time.
+                    </p>
+                    <ul class="project-tags">
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>CSS3</li>
+                    </ul>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="folder-icon">📁</span>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2" target="_blank" aria-label="GitHub Link">GitHub</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Student Portal API</h3>
+                    <p class="project-description">
+                        RESTful backend API managing course registration,
+                         grades, and authentication using JWT tokens and PostgreSQL.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="folder-icon">📁</span>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project3" target="_blank" aria-label="GitHub Link">GitHub</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Personal Finance Tracker</h3>
+                    <p class="project-description">
+                        A Python/Django application for tracking expenses, setting budgets,
+                         and visualizing spending habits with chart integrations.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>SQLite</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Experience / Coursework Section -->
+        <section id="experience" class="experience-section">
+            <h2 class="section-title">Experience & Relevant Coursework</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Teaching Assistant / Peer Tutor</h3>
+                    <p class="company">Department of Computer Science — Wollo University </p>
+                    <p class="date">Sep 2025 – Present</p>
+                    <p>Assisted lower-level students in Data Structures and 
+                        Introductory Java courses, leading weekly lab sessions 
+                        and grading assignments.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Relevant Coursework</h3>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Computer Systems & Networks</li>
+                        <li>Database Systems</li>
+                        <li>Software Engineering Principles</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I am currently looking for internship/entry-level software engineering roles. 
+                Whether you have a question or just want to say hi, feel free to drop a message!</p>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Hello! I'd like to talk about..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p id="form-status"></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="mailto:your.email@example.com">Email</a>
+        </div>
+        <p>&copy; 2026 Muluken Abebe. Designed & Built with HTML, CSS, & JS.</p>
+    </footer>
+
+    <!-- JavaScript link will go here -->
+    <script src="home.js"></script>
+</body>
+</html>
